@@ -1,0 +1,286 @@
+{
+  "keys": "F:\\code\\eggjs-test\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "F:\\code\\eggjs-test\\config\\config.default.js",
+    "mapping": {
+      ".tpl": "F:\\code\\eggjs-test\\config\\config.default.js"
+    },
+    "root": "F:\\code\\eggjs-test\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "F:\\code\\eggjs-test\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "F:\\code\\eggjs-test\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "news": {
+    "pageSize": "F:\\code\\eggjs-test\\config\\config.default.js",
+    "serverUrl": "F:\\code\\eggjs-test\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "F:\\code\\eggjs-test\\config\\config.default.js",
+      "type": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "robot": {
+    "ua": "F:\\code\\eggjs-test\\config\\config.local.js"
+  },
+  "session": {
+    "maxAge": "F:\\code\\eggjs-test\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\code\\eggjs-test\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\code\\eggjs-test\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\code\\eggjs-test\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "F:\\code\\eggjs-test\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "F:\\code\\eggjs-test\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\code\\eggjs-test\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\code\\eggjs-test\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "F:\\code\\eggjs-test\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\code\\eggjs-test\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "F:\\code\\eggjs-test\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "F:\\code\\eggjs-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\code\\eggjs-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\code\\eggjs-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\code\\eggjs-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "F:\\code\\eggjs-test\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\code\\eggjs-test\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "F:\\code\\eggjs-test\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "F:\\code\\eggjs-test\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "F:\\code\\eggjs-test\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\code\\eggjs-test\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\code\\eggjs-test\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "F:\\code\\eggjs-test\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "F:\\code\\eggjs-test\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "F:\\code\\eggjs-test\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\code\\eggjs-test\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "F:\\code\\eggjs-test\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\code\\eggjs-test\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\code\\eggjs-test\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "F:\\code\\eggjs-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\code\\eggjs-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\code\\eggjs-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\code\\eggjs-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\code\\eggjs-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\code\\eggjs-test\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\code\\eggjs-test\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "F:\\code\\eggjs-test\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "F:\\code\\eggjs-test\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "F:\\code\\eggjs-test\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "F:\\code\\eggjs-test\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "F:\\code\\eggjs-test\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\code\\eggjs-test\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "F:\\code\\eggjs-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "F:\\code\\eggjs-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "F:\\code\\eggjs-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "F:\\code\\eggjs-test\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "F:\\code\\eggjs-test\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "name": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "version": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "description": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "start": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "debug": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "dev": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "test": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "author": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "license": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "moment": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "mongoose": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "strict": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "depth": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "logging": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "port": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "F:\\code\\eggjs-test\\node_modules\\egg\\config\\config.default.js"
+}

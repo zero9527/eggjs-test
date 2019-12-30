@@ -1,0 +1,26 @@
+{
+  "name": "eggjs-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "yarn dev",
+    "debug": "yarn dev",
+    "dev": "egg-bin dev",
+    "test": "egg-bin test"
+  },
+  "keywords": [
+    "egg"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.0",
+    "egg-mock": "^3.25.0"
+  }
+}

@@ -1,0 +1,1012 @@
+2019-12-24 17:40:13,866 ERROR 4636 [-/::1/-/2ms GET /detail/7] nodejs.Template render error: (F:\code\egg-example\app\view\news\detail.tpl) [Line 8, Column 30]
+  expected variable end
+  expected variable end
+    at Object._prettifyError (F:\code\egg-example\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (F:\code\egg-example\node_modules\nunjucks\src\environment.js:542:21)
+    at F:\code\egg-example\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (F:\code\egg-example\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (F:\code\egg-example\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\code\egg-example\node_modules\nunjucks\src\environment.js:339:9
+    at next (F:\code\egg-example\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (F:\code\egg-example\node_modules\nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (F:\code\egg-example\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (F:\code\egg-example\node_modules\nunjucks\src\environment.js:360:10)
+    at F:\code\egg-example\node_modules\egg-view-nunjucks\lib\view.js:13:25
+    at new Promise (<anonymous>)
+    at NunjucksView.render (F:\code\egg-example\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (F:\code\egg-example\node_modules\egg-view\lib\context_view.js:70:23)
+    at async NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:5:5)
+    at async robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:7)
+name: "Template render error"
+pid: 4636
+hostname: DESKTOP-7F7NTKV
+
+2019-12-24 17:43:32,969 ERROR 4636 [-/::1/-/18ms GET /detail/7] nodejs.Template render error: (F:\code\egg-example\app\view\news\detail.tpl) [Line 7, Column 16]
+  unexpected token: %}
+  unexpected token: %}
+    at Object._prettifyError (F:\code\egg-example\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (F:\code\egg-example\node_modules\nunjucks\src\environment.js:542:21)
+    at F:\code\egg-example\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (F:\code\egg-example\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (F:\code\egg-example\node_modules\nunjucks\src\environment.js:327:11)
+    at F:\code\egg-example\node_modules\nunjucks\src\environment.js:339:9
+    at next (F:\code\egg-example\node_modules\nunjucks\src\lib.js:280:7)
+    at Object.asyncIter (F:\code\egg-example\node_modules\nunjucks\src\lib.js:286:3)
+    at NunjucksEnvironment.getTemplate (F:\code\egg-example\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (F:\code\egg-example\node_modules\nunjucks\src\environment.js:360:10)
+    at F:\code\egg-example\node_modules\egg-view-nunjucks\lib\view.js:13:25
+    at new Promise (<anonymous>)
+    at NunjucksView.render (F:\code\egg-example\node_modules\egg-view-nunjucks\lib\view.js:12:12)
+    at ContextView.[contextView#render] (F:\code\egg-example\node_modules\egg-view\lib\context_view.js:70:23)
+    at async NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:5:5)
+    at async robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:7)
+name: "Template render error"
+pid: 4636
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:22:09,834 ERROR 16772 [-/127.0.0.1/-/7ms GET /detail/1] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (F:\code\egg-example\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (F:\code\egg-example\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new NewsDetail (F:\code\egg-example\app\controller\news\detail.js:14:5)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 16772
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:23:11,810 ERROR 19140 [-/127.0.0.1/-/11ms GET /detail/1] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (F:\code\egg-example\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (F:\code\egg-example\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new NewsDetail (F:\code\egg-example\app\controller\news\detail.js:14:5)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 19140
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:23:13,679 ERROR 19140 [-/127.0.0.1/-/2ms GET /detail/1] nodejs.TypeError: Cannot read property 'app' of undefined
+    at new BaseContextClass (F:\code\egg-example\node_modules\egg-core\lib\utils\base_context_class.js:25:20)
+    at new BaseContextClass (F:\code\egg-example\node_modules\egg\lib\core\base_context_class.js:13:1)
+    at new NewsDetail (F:\code\egg-example\app\controller\news\detail.js:14:5)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:83:26)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 19140
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:36:42,368 ERROR 4216 [-/127.0.0.1/-/8ms GET /detail/1] nodejs.MongooseError: The `uri` parameter to `openUri()` must be a string, got "function". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at new MongooseError (F:\code\egg-example\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+    at NativeConnection.Connection.openUri (F:\code\egg-example\node_modules\mongoose\lib\connection.js:542:11)
+    at Mongoose.connect (F:\code\egg-example\node_modules\mongoose\lib\index.js:332:15)
+    at MongoDB (F:\code\egg-example\app\utils\mongoose.js:6:12)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:11)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+message: "The `uri` parameter to `openUri()` must be a string, got \"function\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."
+name: "MongooseError"
+pid: 4216
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:38:20,149 ERROR 8824 [-/127.0.0.1/-/29ms GET /detail/1] nodejs.TypeError: mongoose.connection is not a function
+    at MongoDB (F:\code\egg-example\app\utils\mongoose.js:7:23)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:11)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8824
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:48:18,008 ERROR 5624 [-/127.0.0.1/-/15ms GET /detail/1] nodejs.TypeError: MongoDB is not a function
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:11)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 5624
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:48:36,865 ERROR 13544 [-/127.0.0.1/-/95ms GET /detail/1] nodejs.ReferenceError: mongoose is not defined
+    at NewsDetail.createMoedl (F:\code\egg-example\app\controller\news\detail.js:24:18)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:10:16)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:7)
+    at async F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\code\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\code\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\code\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:53:56
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 13544
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:49:24,502 ERROR 420 [-/127.0.0.1/-/62ms GET /detail/1] nodejs.OverwriteModelError: Cannot overwrite `Tank` model once compiled.
+    at new OverwriteModelError (F:\code\egg-example\node_modules\mongoose\lib\error\overwriteModel.js:20:11)
+    at Mongoose.model (F:\code\egg-example\node_modules\mongoose\lib\index.js:521:13)
+    at NewsDetail.createMoedl (F:\code\egg-example\app\controller\news\detail.js:30:27)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:10:16)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:7)
+    at async F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\code\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\code\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\code\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:53:56
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "Cannot overwrite `Tank` model once compiled."
+name: "OverwriteModelError"
+pid: 420
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:49:25,947 ERROR 420 [-/127.0.0.1/-/48ms GET /detail/1] nodejs.OverwriteModelError: Cannot overwrite `Tank` model once compiled.
+    at new OverwriteModelError (F:\code\egg-example\node_modules\mongoose\lib\error\overwriteModel.js:20:11)
+    at Mongoose.model (F:\code\egg-example\node_modules\mongoose\lib\index.js:521:13)
+    at NewsDetail.createMoedl (F:\code\egg-example\app\controller\news\detail.js:30:27)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:10:16)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:7)
+    at async F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\code\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\code\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\code\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:53:56
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "Cannot overwrite `Tank` model once compiled."
+name: "OverwriteModelError"
+pid: 420
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:51:15,038 ERROR 16752 [-/127.0.0.1/-/226ms GET /detail/1] nodejs.MissingSchemaError: Schema hasn't been registered for model "Tank".
+Use mongoose.model(name, schema)
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (F:\code\egg-example\node_modules\mongoose\lib\error\missingSchema.js:22:11)
+    at Mongoose.model (F:\code\egg-example\node_modules\mongoose\lib\index.js:501:13)
+    at NewsDetail.createMoedl (F:\code\egg-example\app\controller\news\detail.js:30:27)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:10:16)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:7)
+    at async F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\code\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\code\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\code\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:53:56
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "Schema hasn't been registered for model \"Tank\".\nUse mongoose.model(name, schema)"
+name: "MissingSchemaError"
+pid: 16752
+hostname: DESKTOP-7F7NTKV
+
+2019-12-26 11:51:40,534 ERROR 13256 [-/127.0.0.1/-/67ms GET /detail/1] nodejs.OverwriteModelError: Cannot overwrite `Tank` model once compiled.
+    at new OverwriteModelError (F:\code\egg-example\node_modules\mongoose\lib\error\overwriteModel.js:20:11)
+    at Mongoose.model (F:\code\egg-example\node_modules\mongoose\lib\index.js:521:13)
+    at NewsDetail.createMoedl (F:\code\egg-example\app\controller\news\detail.js:30:27)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:10:16)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:7)
+    at async F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\code\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\code\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\code\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\code\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:53:56
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "Cannot overwrite `Tank` model once compiled."
+name: "OverwriteModelError"
+pid: 13256
+hostname: DESKTOP-7F7NTKV
+
+2019-12-27 18:17:24,146 ERROR 19624 [-/127.0.0.1/-/2ms GET /getNewsList?startAt=0&endAt=4] nodejs.ReferenceError: newsDBModel is not defined
+    at NewsController.getNewsList (F:\code\egg-example\app\controller\news\index.js:42:5)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 19624
+hostname: DESKTOP-7F7NTKV
+
+2019-12-27 18:19:44,059 ERROR 16396 [-/127.0.0.1/-/2ms GET /getNewsList?startAt=0&endAt=4] nodejs.ReferenceError: newsDBModel is not defined
+    at NewsController.getNewsList (F:\code\egg-example\app\controller\news\index.js:42:5)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 16396
+hostname: DESKTOP-7F7NTKV
+
+2019-12-27 18:20:02,362 ERROR 16884 [-/127.0.0.1/-/2ms GET /getNewsList?startAt=0&endAt=4] nodejs.ReferenceError: newsDBModel is not defined
+    at NewsController.getNewsList (F:\code\egg-example\app\controller\news\index.js:42:5)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 16884
+hostname: DESKTOP-7F7NTKV
+
+2019-12-27 18:21:01,068 ERROR 3368 [-/127.0.0.1/-/2ms GET /getNewsList?startAt=0&endAt=4] nodejs.ReferenceError: title is not defined
+    at NewsController.getNewsList (F:\code\egg-example\app\controller\news\index.js:44:15)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 3368
+hostname: DESKTOP-7F7NTKV
+
+2019-12-27 18:21:19,150 ERROR 17520 [-/127.0.0.1/-/2ms GET /getNewsList?startAt=0&endAt=4] nodejs.ReferenceError: title is not defined
+    at NewsController.getNewsList (F:\code\egg-example\app\controller\news\index.js:44:15)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 17520
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 09:59:44,477 ERROR 16328 [-/127.0.0.1/-/4ms GET /detail/5e05d394313e92286c074fc1] nodejs.TypeError: Cannot read property 'getDetailData' of undefined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 16328
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:00:20,942 ERROR 20096 [-/127.0.0.1/-/10ms GET /detail/5e05d394313e92286c074fc1] nodejs.TypeError: Cannot read property 'getDetailData' of undefined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 20096
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:00:28,208 ERROR 20096 [-/127.0.0.1/-/2ms GET /detail/5e05d394313e92286c074fc1] nodejs.TypeError: Cannot read property 'getDetailData' of undefined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 20096
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:00:33,471 ERROR 20096 [-/127.0.0.1/-/1ms GET /detail/5e05d394313e92286c074fc1] nodejs.TypeError: Cannot read property 'getDetailData' of undefined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 20096
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:00:35,891 ERROR 20096 [-/127.0.0.1/-/0ms GET /detail/5e05d397313e92286c074fc2] nodejs.TypeError: Cannot read property 'getDetailData' of undefined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 20096
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:01:03,023 ERROR 20096 [-/127.0.0.1/-/1ms GET /detail/5e05d4564eb0df41c057cc53] nodejs.TypeError: Cannot read property 'getDetailData' of undefined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 20096
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:01:31,281 ERROR 20096 [-/127.0.0.1/-/1ms GET /detail/5e05d4564eb0df41c057cc53] nodejs.TypeError: Cannot read property 'getDetailData' of undefined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (F:\code\egg-example\app\middleware\robot.js:10:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 20096
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:04:50,508 ERROR 7604 [-/127.0.0.1/-/4763ms GET /detail/5e05d4564eb0df41c057cc53] nodejs.ReferenceError: id is not defined
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:11:13)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+
+pid: 7604
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:35:04,196 WARN 11916 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:35:04,200 WARN 11916 [-/127.0.0.1/-/5ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:35:34,451 WARN 11916 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:35:34,452 WARN 11916 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:36:35,483 WARN 11916 [-/127.0.0.1/-/0ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:36:35,485 WARN 11916 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:37:08,484 WARN 11916 [-/127.0.0.1/-/0ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:37:08,486 WARN 11916 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:37:10,467 WARN 11916 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:37:10,468 WARN 11916 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:39:00,932 WARN 11916 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:39:00,933 WARN 11916 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:39:58,091 WARN 11916 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:39:58,092 WARN 11916 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:40:35,092 WARN 11916 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:40:35,093 WARN 11916 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:41:07,372 WARN 11916 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:41:07,374 WARN 11916 [-/127.0.0.1/-/3ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 11916
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:44:13,655 WARN 1804 [-/127.0.0.1/-/19ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:44:13,659 WARN 1804 [-/127.0.0.1/-/22ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 1804
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 10:47:06,646 WARN 1804 [-/127.0.0.1/-/1ms POST /news/add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-30 10:47:06,647 WARN 1804 [-/127.0.0.1/-/2ms POST /news/add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\code\egg-example\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (F:\code\egg-example\node_modules\egg-security\app\extend\context.js:162:19)
+    at csrf (F:\code\egg-example\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at session (F:\code\egg-example\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\code\egg-example\node_modules\koa-override\index.js:38:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\code\egg-example\node_modules\koa-bodyparser\index.js:86:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+    at async F:\code\egg-example\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (F:\code\egg-example\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\code\egg-example\node_modules\egg\app\middleware\meta.js:12:5)
+message: "invalid csrf token"
+pid: 1804
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 11:02:03,516 ERROR 8920 [-/127.0.0.1/-/27ms POST /news/add] nodejs.TypeError: Cannot read property 'body' of undefined
+    at NewsController.newsAdd (F:\code\egg-example\app\controller\news\index.js:14:36)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\code\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 8920
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 11:02:17,409 ERROR 8920 [-/127.0.0.1/-/2ms POST /news/add] nodejs.TypeError: Cannot read property 'body' of undefined
+    at NewsController.newsAdd (F:\code\egg-example\app\controller\news\index.js:14:36)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\code\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+
+pid: 8920
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 11:10:48,468 ERROR 19660 [-/127.0.0.1/-/3ms GET /detail/5e0969d44f21450d54252d74] nodejs.ReferenceError: title is not defined
+    at NewsDetailService.getDetailData (F:\code\egg-example\app\service\news\detail.js:11:49)
+    at NewsDetail.index (F:\code\egg-example\app\controller\news\detail.js:6:43)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\code\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 19660
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 11:20:16,745 ERROR 14740 [-/127.0.0.1/-/22ms POST /news/add] nodejs.MongooseError: document must have an _id before saving
+    at new MongooseError (F:\code\egg-example\node_modules\mongoose\lib\error\mongooseError.js:10:11)
+    at Timeout._onTimeout (F:\code\egg-example\node_modules\mongoose\lib\model.js:262:18)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+message: "document must have an _id before saving"
+name: "MongooseError"
+pid: 14740
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 14:11:34,406 ERROR 7952 [-/127.0.0.1/-/150ms POST /news/update] nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (F:\code\egg-example\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (F:\code\egg-example\node_modules\mongodb\lib\utils.js:150:22)
+    at F:\code\egg-example\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at F:\code\egg-example\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+errmsg: "Performing an update on the path '_id' would modify the immutable field '_id'"
+pid: 7952
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 14:13:57,049 ERROR 13432 [-/127.0.0.1/-/4104ms POST /news/update] nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (F:\code\egg-example\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (F:\code\egg-example\node_modules\mongodb\lib\utils.js:150:22)
+    at F:\code\egg-example\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at F:\code\egg-example\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+errmsg: "Performing an update on the path '_id' would modify the immutable field '_id'"
+pid: 13432
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 14:14:37,713 ERROR 20416 [-/127.0.0.1/-/30ms POST /news/update] nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (F:\code\egg-example\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (F:\code\egg-example\node_modules\mongodb\lib\utils.js:150:22)
+    at F:\code\egg-example\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at F:\code\egg-example\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+errmsg: "Performing an update on the path '_id' would modify the immutable field '_id'"
+pid: 20416
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 14:18:25,469 ERROR 11900 [-/127.0.0.1/-/27ms POST /news/update] nodejs.MongoError: Performing an update on the path '_id' would modify the immutable field '_id'
+    at Function.create (F:\code\egg-example\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (F:\code\egg-example\node_modules\mongodb\lib\utils.js:150:22)
+    at F:\code\egg-example\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at F:\code\egg-example\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+driver: true
+name: "MongoError"
+index: 0
+code: 66
+errmsg: "Performing an update on the path '_id' would modify the immutable field '_id'"
+pid: 11900
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 14:27:42,640 ERROR 18640 [-/127.0.0.1/-/14ms POST /news/update] nodejs.TypeError: news.findOneAndUpdate is not a function
+    at NewsService.updateNews (F:\code\egg-example\app\service\news\index.js:35:30)
+    at NewsController.newsUpdate (F:\code\egg-example\app\controller\news\index.js:73:30)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\code\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 18640
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 15:12:25,542 ERROR 17672 [-/127.0.0.1/-/140ms POST /news/update] nodejs.TypeError: news.findByIdAndUpdate is not a function
+    at NewsService.updateNews (F:\code\egg-example\app\service\news\index.js:35:30)
+    at NewsController.newsUpdate (F:\code\egg-example\app\controller\news\index.js:73:30)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\code\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 17672
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 15:16:34,452 ERROR 16600 [-/127.0.0.1/-/25ms POST /news/update] nodejs.TypeError: news.findByIdAndUpdate is not a function
+    at NewsService.updateNews (F:\code\egg-example\app\service\news\index.js:35:30)
+    at NewsController.newsUpdate (F:\code\egg-example\app\controller\news\index.js:73:30)
+    at Object.callFn (F:\code\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\code\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\code\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\code\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\code\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\code\egg-example\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at F:\code\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\code\egg-example\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\code\egg-example\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+
+pid: 16600
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 15:26:00,581 ERROR 13088 [-/127.0.0.1/-/25ms POST /news/update] nodejs.CastError: Cast to ObjectId failed for value "5e096ef85c70d34c4cec892a1" at path "_id" for model "news"
+    at new CastError (F:\code\egg-example\node_modules\mongoose\lib\error\cast.js:39:11)
+    at ObjectId.cast (F:\code\egg-example\node_modules\mongoose\lib\schema\objectid.js:246:11)
+    at ObjectId.SchemaType.applySetters (F:\code\egg-example\node_modules\mongoose\lib\schematype.js:975:12)
+    at ObjectId.SchemaType._castForQuery (F:\code\egg-example\node_modules\mongoose\lib\schematype.js:1389:15)
+    at ObjectId.SchemaType.castForQuery (F:\code\egg-example\node_modules\mongoose\lib\schematype.js:1379:15)
+    at ObjectId.SchemaType.castForQueryWrapper (F:\code\egg-example\node_modules\mongoose\lib\schematype.js:1358:15)
+    at cast (F:\code\egg-example\node_modules\mongoose\lib\cast.js:315:32)
+    at model.Query.Query.cast (F:\code\egg-example\node_modules\mongoose\lib\query.js:4698:12)
+    at castQuery (F:\code\egg-example\node_modules\mongoose\lib\query.js:4510:18)
+    at model.Query.Query._findAndModify (F:\code\egg-example\node_modules\mongoose\lib\query.js:3454:23)
+    at model.Query.<anonymous> (F:\code\egg-example\node_modules\mongoose\lib\query.js:3036:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (F:\code\egg-example\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at F:\code\egg-example\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+stringValue: "\"5e096ef85c70d34c4cec892a1\""
+kind: "ObjectId"
+value: "5e096ef85c70d34c4cec892a1"
+path: "_id"
+reason: {}
+message: "Cast to ObjectId failed for value \"5e096ef85c70d34c4cec892a1\" at path \"_id\" for model \"news\""
+name: "CastError"
+model: undefined
+pid: 13088
+hostname: DESKTOP-7F7NTKV
+
+2019-12-30 15:27:20,898 ERROR 16540 [-/127.0.0.1/-/41ms POST /news/update] nodejs.CastError: Cast to date failed for value "[Function: now]" at path "update_time"
+    at new CastError (F:\code\egg-example\node_modules\mongoose\lib\error\cast.js:39:11)
+    at SchemaDate.cast (F:\code\egg-example\node_modules\mongoose\lib\schema\date.js:314:11)
+    at SchemaDate.SchemaType.applySetters (F:\code\egg-example\node_modules\mongoose\lib\schematype.js:975:12)
+    at SchemaDate.SchemaType._castForQuery (F:\code\egg-example\node_modules\mongoose\lib\schematype.js:1389:15)
+    at SchemaDate.castForQuery (F:\code\egg-example\node_modules\mongoose\lib\schema\date.js:347:17)
+    at SchemaDate.SchemaType.castForQueryWrapper (F:\code\egg-example\node_modules\mongoose\lib\schematype.js:1358:15)
+    at castUpdateVal (F:\code\egg-example\node_modules\mongoose\lib\helpers\query\castUpdate.js:512:19)
+    at walkUpdatePath (F:\code\egg-example\node_modules\mongoose\lib\helpers\query\castUpdate.js:339:22)
+    at castUpdate (F:\code\egg-example\node_modules\mongoose\lib\helpers\query\castUpdate.js:96:18)
+    at model.Query._castUpdate (F:\code\egg-example\node_modules\mongoose\lib\query.js:4495:10)
+    at castDoc (F:\code\egg-example\node_modules\mongoose\lib\query.js:4523:18)
+    at model.Query.Query._findAndModify (F:\code\egg-example\node_modules\mongoose\lib\query.js:3486:22)
+    at model.Query.<anonymous> (F:\code\egg-example\node_modules\mongoose\lib\query.js:3036:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (F:\code\egg-example\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at F:\code\egg-example\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+stringValue: "\"[Function: now]\""
+kind: "date"
+value: undefined
+path: "update_time"
+reason: {"generatedMessage":true,"code":"ERR_ASSERTION","actual":false,"expected":true,"operator":"=="}
+message: "Cast to date failed for value \"[Function: now]\" at path \"update_time\""
+name: "CastError"
+pid: 16540
+hostname: DESKTOP-7F7NTKV
+

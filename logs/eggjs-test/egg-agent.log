@@ -1,0 +1,10 @@
+2019-12-30 18:23:11,196 INFO 19812 [egg:logger] init all loggers with options: {"dir":"F:\\code\\eggjs-test\\logs\\eggjs-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-30 18:23:11,212 INFO 19812 [egg:core] dump config after load, 11ms
+2019-12-30 18:23:11,259 INFO 19812 [egg-watcher] Start watching: ["F:\\code\\eggjs-test\\app","F:\\code\\eggjs-test\\config","F:\\code\\eggjs-test\\mocks","F:\\code\\eggjs-test\\mocks_proxy","F:\\code\\eggjs-test\\app.js"]
+2019-12-30 18:23:11,259 INFO 19812 [egg-watcher] Start watching: "F:\\code\\eggjs-test\\app"
+2019-12-30 18:23:11,260 INFO 19812 [egg-watcher] Start watching: "F:\\code\\eggjs-test\\config"
+2019-12-30 18:23:11,260 INFO 19812 [egg-watcher] Start watching: "F:\\code\\eggjs-test\\mocks"
+2019-12-30 18:23:11,260 INFO 19812 [egg-watcher] Start watching: "F:\\code\\eggjs-test\\mocks_proxy"
+2019-12-30 18:23:11,260 INFO 19812 [egg-watcher] Start watching: "F:\\code\\eggjs-test\\app.js"
+2019-12-30 18:23:11,261 INFO 19812 [egg-watcher:agent] watcher start success
+2019-12-30 18:23:11,297 INFO 19812 [egg:core] dump config after ready, 28ms
